@@ -1,0 +1,148 @@
+* {
+    font-family: Helvetica;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    align-items: center;
+}
+/* nav & logo */
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    left: 0px;
+    position: fixed; 
+    top: 0px;
+    z-index: 1;
+    height: 69px;
+}
+
+.menu{
+    display: inline;
+    text-align: right;
+    padding: 5px;
+}
+
+li {
+    text-decoration: underline;
+}
+
+img{
+   height: 48px;
+   padding-left: 10px;
+}
+
+/* body */
+body {
+    position: relative;
+    top: 65px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Mission */
+
+.mission{
+background-image: url(./CSS/images/img-mission-background.jpg);
+height: 700px;
+width: 97%;
+max-width: 1200px;
+min-width: 1200px;
+background-position: center;
+display: flex;
+align-items: center;
+}
+
+
+
+.mission div {
+    width: 100%;
+}
+
+h2 {
+    width: 100%;
+    font-size: 40px;;
+}
+
+h4 {
+    width: 100%;
+}
+
+/* Tea Feature */
+
+.tea-content{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-flow:  wrap;
+    min-width: 600px;
+    }
+    
+    .tea-content h2{
+        font-size: 30px;
+        margin-top: 85px;
+    }
+    
+    .tea-content h4{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    
+    .teapics {
+        height: 200px;
+        width: 300px;
+    }
+    
+    .a,
+    .b,
+    .c,
+    .d,
+    .e {
+        margin: 0px 10px; 
+        flex-flow: column wrap;
+        justify-items: center;
+    }
+
+    /* location */
+
+    .location{
+    background-image: url(./CSS/images/img-locations-background.jpg);
+    max-height: 500px;
+    min-height: 500px;
+    width: 97%;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    }
+
+    .loc-header{
+        background-color: transparent;
+        font-size: 30px;
+        margin-top: 55px;
+    }
+
+.locationsection{
+    display: flex;
+justify-content: space-around;
+background-color: transparent;
+}
+
+.left-box,
+.middle-box,
+.right-box{
+    width: 300px;
+    padding: 20px;
+    font-size: 20px;
+
+}
+ 
+/* footer */
+
+.copyright{
+   float: left;
+   margin-right: 1300px;
+}
